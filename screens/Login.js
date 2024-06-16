@@ -8,11 +8,11 @@ import { alignContent, flex, flexDirection, width } from 'styled-system';
 
 
 function Login() {
-    const navigation = useNavigation();
+    const navigation = useNavigation(); 
   return (
-    <View style={styles.container}>
+    <View style={styles.container}>  
       <View style={styles.Middle}>
-        <Text style={styles.LoginText}>Login</Text>
+        <Text style={styles.LoginText}>Login</Text> 
       </View>
       <View style={styles.text2}>
         <Text>Don't have an account? </Text>
